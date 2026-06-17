@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Santa Clara</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="$description">
+    <meta name="theme-color" content="#10101010">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    @@include('src/partials/header.html')
+</head>
+<body>
+@@include('src/partials/body.html')
+<header class="tpl__header" id="tpl__header">
+    <div class="container">
+        <img src="assets/images/logo.webp" alt="Santa Clara" class="logo">
+        <nav>
+            <ul class="menu__horizontal">
+                <li><a href="#section__hero">HOME</a></li>
+                <li><a href="#section__espaco">ESPAÇO</a></li>
+                <li><a href="#section__depoimentos">DEPOIMENTOS</a></li>
+                <li><a href="#section__fotos">FOTOS</a></li>
+                <li><a href="#section__orcamento">ORÇAMENTO</a></li>
+            </ul>
+        </nav>
+        <a class="botao zap" href="$zap" target="_blank">Solicite um Orçamento</a>
+    </div>
+</header>
+<main class="tpl__main">
+    <section class="home__hero">
+        <img src="assets/images/prancheta.png" id="prancheta">
+        <div class="container flex flex-center">
+            <h1 class="ttl white center">
+                Leve seu Cinema a Um Novo Patamar.
+            </h1>
+            <p class="copy white center">
+                Transforme sua produção em uma experiência cinematográfica extraordinária.
+                O que o seu cinema precisa está a um clique de distância.
+            </p>
+            <a class="botao" href="$zap" target="_blank">Fale Conosco!</a>
+            <img src="assets/images/refretor.png" alt="refretor de video" class="refretor__home">
+            <p class="copy white center">
+                Reconhecida por grandes marcas em território nacional!
+                <span>Conheça alguns dos nossos clientes:</span>
+            </p>
+        </div>
+        <div class="container">
+            <div class="pure-slide">
+                <div class="pure-slide__container">
+                    <div class="slide">
+                        <img src="assets/images/logo__cliente/logo__cliente1.png" alt="logo dos clientes">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/logo__cliente/logo__cliente2.png" alt="logo dos clientes">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/logo__cliente/logo__cliente3.png" alt="logo dos clientes">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/logo__cliente/logo__cliente4.png" alt="logo dos clientes">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/logo__cliente/logo__cliente5.png" alt="logo dos clientes">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/logo__cliente/logo__cliente6.png" alt="logo dos clientes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home__produtos">
+        <div class="container">
+            <div class="flex space-between col">
+                <h2 class="ttl center">
+                    <span>Nossos Produtos</span>
+                    Projetores Cinematográficos
+                </h2>
+                <div class="flex flex-center gap-md">
+                    <p class="">
+                        <span>1k+</span>
+                        Cinemas satisfeitos
+                        em todo o Brasil.
+                    </p>
+                    <p>
+                        <span>17k</span>
+                        Projetores entregues.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-3-cols">
+                <article class="container__projetor">
+                    <div class="projetor" id="projetor1">
+                        <img src="assets/images/projetor1.png" alt="refretor">
+                    </div>
+                    <div class="text__projetor flex flex-center gap-md">
+                        <h2 class="copy">
+                            Barco RLM-W6121
+                            <span>R$ 72.000,00</span>
+                        </h2>
+                        <a class="botao" href="$zap" target="_blank">Fale Conosco!</a>
+                    </div>
+                </article>
+                <article class="container__projetor">
+                    <div class="projetor" id="projetor2">
+                        <img src="assets/images/projetor2.png" alt="refretor">
+                    </div>
+                    <div class="text__projetor flex flex-center gap-md">
+                        <h2 class="copy">
+                            F80‑Q9
+                            <span>R$ 124.000,00</span>
+                        </h2>
+                        <a class="botao" href="$zap" target="_blank">Fale Conosco!</a>
+                    </div>
+                </article>
+                <article class="container__projetor">
+                    <div class="projetor" id="projetor3">
+                        <img src="assets/images/projetor3.png" alt="refretor">
+                    </div>
+                    <div class="text__projetor flex flex-center gap-md">
+                        <h2 class="copy">
+                            Barco DP2K-8S
+                            <span>R$ 285.000,00</span>
+                        </h2>
+                        <a class="botao" href="$zap" target="_blank">Fale Conosco!</a>
+                    </div>
+                </article>
+                <article class="container__projetor">
+                    <div class="projetor" id="projetor4">
+                        <img src="assets/images/projetor4.png" alt="refretor">
+                    </div>
+                    <div class="text__projetor flex flex-center gap-md">
+                        <h2 class="copy">
+                            Christie 2K CP2308
+                            <span>R$ 142.000,00</span>
+                        </h2>
+                        <a class="botao" href="$zap" target="_blank">Fale Conosco!</a>
+                    </div>
+                </article>
+                <article class="container__projetor">
+                    <div class="projetor" id="projetor5">
+                        <img src="assets/images/projetor5.png" alt="refretor">
+                    </div>
+                    <div class="text__projetor flex flex-center gap-md">
+                        <h2 class="copy">
+                            Christie 4K CP4325
+                            <span>R$ 224.000,00</span>
+                        </h2>
+                        <a class="botao" href="$zap" target="_blank">Fale Conosco!</a>
+                    </div>
+                </article>
+                <article class="container__projetor">
+                    <div class="projetor" id="projetor6">
+                        <img src="assets/images/projetor6.png" alt="refretor">
+                    </div>
+                    <div class="text__projetor flex flex-center gap-md">
+                        <h2 class="copy">
+                            Barco DP2K-8S
+                            <span>R$ 197.000,00</span>
+                        </h2>
+                        <a class="botao" href="$zap" target="_blank">Fale Conosco!</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="home__duvidas">
+        <div class="container">
+            <img src="assets/images/duvidas.png" alt="celular com uma pergunta">
+            <h2 class="center">
+                Perguntas & Respostas
+                <span class="copy">Algumas das dúvidas mais frequentes dos nossos clientes.</span>
+            </h2>
+            <details>
+                <summary>Esses projetores podem ser usados em ambientes domésticos?</summary>
+                <div class="details-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis, eros eu luctus faucibus,
+                    nunc ligula fermentum sapien, sed dignissim mauris urna in arcu. Suspendisse potenti.
+                </div>
+            </details>
+            <details>
+                <summary>Como faço para obter um orçamento personalizado?</summary>
+                <div class="details-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis, eros eu luctus faucibus,
+                    nunc ligula fermentum sapien, sed dignissim mauris urna in arcu. Suspendisse potenti.
+                </div>
+            </details>
+            <details>
+                <summary>Quais são os diferenciais das soluções da Santa Clara?</summary>
+                <div class="details-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis, eros eu luctus faucibus,
+                    nunc ligula fermentum sapien, sed dignissim mauris urna in arcu. Suspendisse potenti.
+                </div>
+            </details>
+            <details>
+                <summary>A Santa Clara oferece suporte técnico especializado?</summary>
+                <div class="details-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis, eros eu luctus faucibus,
+                    nunc ligula fermentum sapien, sed dignissim mauris urna in arcu. Suspendisse potenti.
+                </div>
+            </details>
+        </div>
+    </section>
+    <section class="home__historia">
+        <div class="container">
+            <img src="assets/images/historia.png" alt="paisagem da empresa">
+            <h2 class="ttl white center">
+                Nossa História e Paixão pelo Cinema
+            </h2>
+            <p class="copy center ">
+                "Décadas de inovação e excelência no universo cinematográfico. Conheça nossa história e descubra como
+                moldamos experiências únicas na tela."
+            </p>
+            <p class="btn">
+                <a class="botao" href="#" target="_blank">Assista ao Video</a>
+            </p>
+            <div class="col flex space-between">
+                <div class="historia">
+                    <h2 class="ttl white">
+                        Santa Clara: Fundada com a missão de te encantar!
+                    </h2>
+                    <p class="copy">
+                        Temos orgulho de estar na vanguarda da tecnologia de projeção para grandes produções. Desde o
+                        nosso primeiro projeto até as soluções cinematográficas inovadoras que oferecemos hoje, estamos
+                        sempre um passo à frente, proporcionando ao público experiências verdadeiramente
+                        cinematográficas.
+                    </p>
+                    <a class="botao zap" href="$zap" target="_blank">Fale conosco!</a>
+                </div>
+                <div>
+                    <img src="assets/images/persona.png" alt="paisagem da empresa">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home__orcamento">
+        <div class="container flex flex-center gap-md">
+            <div class="col">
+                <h2 class="ttl">
+                    Entre em contato
+                </h2>
+                <p class="copy">
+                    Precisa de uma solução cinematográfica que atenda às exigências do seu projeto? Fale conosco! Nossa
+                    equipe está pronta para entender as suas necessidades e oferecer a solução perfeita para você
+                </p>
+                <form class="form__container" action="$form">
+                    <div class="form__line">
+                        <label for="f_nome">NOME</label>
+                        <input type="text" id="f_nome" name="nome" placeholder="Nome" required class="form__control">
+                    </div>
+
+                    <div class="grid grid-2-cols gap-md">
+                        <div class="form__line">
+                            <label for="f_email">E-MAIL</label>
+                            <input type="email" id="f_email" name="email" placeholder="E-mail" required class="form__control">
+                        </div>
+
+                        <div class="form__line">
+                            <label for="f_telefone">TELEFONE</label>
+                            <input type="tel" id="f_telefone" name="telefone" placeholder="(11) 99999-9999" required class="form__control">
+                        </div>
+                    </div>
+                    <button type="submit" class="botao">ENVIAR</button>
+                    <p class="copy center">
+                        Ou fale conosco!
+                    </p>
+                    <p id="btn__forms" class="flex flex-center gap-md">
+                        <a class="botao zap btn__forms" href="$zap" target="_blank">(11)94914-2547</a>
+                        <a href="tel:+551120200930" class="botao" id="tel">(11)2020-0930</a>
+                    </p>
+                </form>
+            </div>
+            <div class="bg__forms">
+                <img src="assets/images/refretor__forms.png">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="tpl__footer">
+    <p>Santa Clara © 2024. Todos os Direitos Reservados.</p>
+    <p>
+        <a href="termos.html">Termos de uso</a>
+        -
+        <a href="privacidade.html">Política de Privacidade</a>
+    </p>
+    <a href="https://tecna.com.br" title="Marketing Digital">TECNA</a>
+</footer>
+<a id="fabWhatsApp" href="$zap" class="cta zap pulse"><img src="assets/images/icon-whatsapp.webp" alt="WhatsApp"></a>
+<script type="module" src="assets/js/scripts.js"></script>
+</body>
+@@include('src/partials/footer.html')
+</html>
